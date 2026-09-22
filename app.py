@@ -1,6 +1,6 @@
 import streamlit as st
 
-a=st.number_input("Enter a nuaamber")
+a=st.number_input("Enter a nuqqqmber")
 b=st.number_input("Enter another number")
 if-st.button("add"):
 	st.success(a+b)
