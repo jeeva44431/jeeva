@@ -1,10 +1,8 @@
 import streamlit as st
 
-a=st.number_input("Enter a nuqqqmber")
-b=st.number_input("Enter another number")
-if-st.button("add"):
-	st.success(a+b)
-elif st.button("subtract"):
-	st.success(a-b)
-elif st.button("multiply"):
-	st.success(a*b)
+a=st.chat_input("Enter a command")
+if a=st.chat_message("user").write(a)
+	if a.lower()=="hi":
+		st.chat_message("AI").write("hello")
+	elif a.lower()=="bye":
+		st.chat_message("HB").write("goodbye")
